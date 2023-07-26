@@ -1,0 +1,12 @@
+[
+{
+  "modid": "regemrp",
+  "name": "RegemRP Mod",
+  "description": "Mod officiel de RegemRP.",
+  "mcversion": "1.12.2",
+  "url": "https://regemrp.eu",
+  "authorList": ["yan36"],
+  "credits": "L'équipe de développement de RegemRP",
+  "logoFile": "logo.png"
+}
+]
