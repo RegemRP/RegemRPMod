@@ -101,7 +101,7 @@ dependencies {
     /* Shadow Jar */
 
     shadow 'club.minnced:java-discord-rpc:2.0.1'
-//    shadow fileTree(dir: 'libs', include: '*.jar')
+    shadow fileTree(dir: 'libs', include: '*.jar')
 
     // You may put jars on which you depend on in ./libs or you may define them like so..
     // compile "some.group:artifact:version:classifier"
@@ -139,7 +139,7 @@ jar {
     from {
         configurations.compile
                 .filter {
-                    it.name == 'discord-rpc.jar'
+                    it.name == 'simpledatabasemanager-1.0.jar'
                 }
                 .collect { it.isDirectory() ? it : zipTree(it) }
     }
