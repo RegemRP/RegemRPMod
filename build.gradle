@@ -10,6 +10,7 @@ buildscript {
 
 repositories {
     mavenCentral()
+    jcenter()
     maven {
         url('http://maven.dynamx.fr/artifactory/DynamXRepo/')
     }
@@ -25,11 +26,17 @@ apply plugin: 'maven-publish'
 apply plugin: "java"
 apply plugin: 'idea'
 
+idea { module { inheritOutputDirs = true } }
+
+sourceSets {
+    main {
+        output.resourcesDir = output.classesDir
+    }
+}
+
 tasks.withType(JavaCompile) {
     options.encoding = "UTF-8"
 }
-
-sourceSets { main { output.resourcesDir = output.classesDir } }
 
 version = '1.0'
 group = 'fr.regemrp.mod' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
@@ -79,8 +86,10 @@ dependencies {
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
     minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2860'
 
-    implementation fg.deobf('fr.dynamx:DynamX:4.0.0-beta-18')
-    implementation "fr.aym.acsguis:ACsGuis:1.2.5"
+    implementation fg.deobf('fr.dynamx:DynamX:4.0.0-beta-26')
+    implementation "fr.aym.acsguis:ACsGuis:1.2.9-dev"
+
+    compile 'club.minnced:java-discord-rpc:2.0.1'
 
     // You may put jars on which you depend on in ./libs or you may define them like so..
     // compile "some.group:artifact:version:classifier"
