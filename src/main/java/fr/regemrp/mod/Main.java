@@ -1,9 +1,8 @@
 package fr.regemrp.mod;
 
 import fr.dynamx.api.contentpack.DynamXAddon;
-import fr.dynamx.api.obj.ObjModelPath;
-import fr.dynamx.common.DynamXContext;
 import fr.regemrp.mod.common.CommonProxy;
+import fr.regemrp.mod.common.init.AllRegister;
 import fr.regemrp.mod.common.init.Network;
 import fr.regemrp.mod.common.utils.References;
 import fr.regemrp.mod.common.utils.discord.RPCInit;
@@ -25,7 +24,6 @@ import org.apache.logging.log4j.Logger;
 import java.util.Objects;
 
 @Mod(modid = References.MODID, name = References.NAME, version = References.VERSION)
-@DynamXAddon(modid = References.MODID, name = References.NAME, version = References.VERSION)
 public class Main
 {
 
@@ -37,6 +35,14 @@ public class Main
 
     @SidedProxy(clientSide = References.CLIENT_PROXY_CLASS, serverSide = References.SERVER_PROXY_CLASS)
     public static CommonProxy proxy;
+
+    /* Dynamx Init */
+
+    @DynamXAddon.AddonEventSubscriber
+    public static void init()
+    {
+        AllRegister.dynamxInit();
+    }
 
     /* Creative Tabs */
 
@@ -70,13 +76,6 @@ public class Main
 
     @Mod.EventHandler
     public void onServerStarting(FMLServerStartingEvent event) {
-
-    }
-
-    /* Dynamx Init */
-
-    @DynamXAddon.AddonEventSubscriber
-    public static void init() {
 
     }
 
