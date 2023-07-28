@@ -1,7 +1,5 @@
 package fr.regemrp.mod.common.utils.commands;
 
-import fr.regemrp.mod.Main;
-import net.minecraft.client.Minecraft;
 import net.minecraft.command.CommandBase;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommandSender;

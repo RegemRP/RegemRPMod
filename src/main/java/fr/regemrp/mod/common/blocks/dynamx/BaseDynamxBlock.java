@@ -1,4 +1,4 @@
-package fr.regemrp.mod.common.blocks;
+package fr.regemrp.mod.common.blocks.dynamx;
 
 import fr.dynamx.common.blocks.DynamXBlock;
 import net.minecraft.block.material.Material;
@@ -11,9 +11,9 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class BaseBlock extends DynamXBlock {
+public class BaseDynamxBlock extends DynamXBlock {
 
-    public BaseBlock(Material material, String modid, String blockName, ResourceLocation model, CreativeTabs creativeTabs) {
+    public BaseDynamxBlock(Material material, String modid, String blockName, ResourceLocation model, CreativeTabs creativeTabs) {
         super(material, modid, blockName, model);
         setCreativeTab(creativeTabs);
     }

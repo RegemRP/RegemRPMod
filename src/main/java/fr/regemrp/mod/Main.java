@@ -5,6 +5,7 @@ import fr.nathanael2611.simpledatabasemanager.core.Database;
 import fr.nathanael2611.simpledatabasemanager.core.Databases;
 import fr.nathanael2611.simpledatabasemanager.core.SyncedDatabases;
 import fr.regemrp.mod.common.CommonProxy;
+import fr.regemrp.mod.common.handler.RegisterHandler;
 import fr.regemrp.mod.common.init.AllRegister;
 import fr.regemrp.mod.common.init.Network;
 import fr.regemrp.mod.common.utils.References;
@@ -63,6 +64,7 @@ public class Main
         logger = event.getModLog();
         Network.initNetwork();
 
+        MinecraftForge.EVENT_BUS.register(new RegisterHandler());
         MinecraftForge.EVENT_BUS.register(this);
 
         if(event.getSide() == Side.CLIENT)

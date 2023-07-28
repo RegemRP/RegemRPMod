@@ -1,11 +1,13 @@
 package fr.regemrp.mod.client;
 
-import fr.regemrp.mod.Main;
 import fr.regemrp.mod.common.CommonProxy;
+import fr.regemrp.mod.common.init.BlocksRegister;
+import fr.regemrp.mod.common.init.ItemsRegister;
 import fr.regemrp.mod.common.utils.References;
 import net.minecraft.client.Minecraft;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.Util;
+import net.minecraftforge.common.MinecraftForge;
 import org.apache.commons.compress.utils.IOUtils;
 import org.lwjgl.opengl.Display;
 
@@ -21,6 +23,8 @@ public class ClientProxy extends CommonProxy {
     public void preInit()
     {
         super.preInit();
+        MinecraftForge.EVENT_BUS.register(BlocksRegister.INSTANCE);
+        MinecraftForge.EVENT_BUS.register(ItemsRegister.INSTANCE);
 
         /* Personnalisation du jeu */
 
