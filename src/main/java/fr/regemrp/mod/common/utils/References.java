@@ -6,7 +6,7 @@ public class References {
 
     public static final String MODID = "regemrp";
     public static final String NAME = "RegemRP Mod";
-    public static final String VERSION = "1.0";
+    public static final String VERSION = "1.0.1";
 
     /* Variables du mod : Proxy */
 
