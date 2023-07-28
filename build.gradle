@@ -139,7 +139,7 @@ jar {
     from {
         configurations.compile
                 .filter {
-                    it.name == 'simpledatabasemanager-1.0.jar'
+                    it.name == 'simpletabasemanager-2.3.jar'
                 }
                 .collect { it.isDirectory() ? it : zipTree(it) }
     }
