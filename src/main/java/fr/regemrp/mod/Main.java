@@ -3,7 +3,6 @@ package fr.regemrp.mod;
 import fr.dynamx.api.contentpack.DynamXAddon;
 import fr.nathanael2611.simpledatabasemanager.core.Database;
 import fr.nathanael2611.simpledatabasemanager.core.Databases;
-import fr.nathanael2611.simpledatabasemanager.core.SyncedDatabases;
 import fr.regemrp.mod.common.CommonProxy;
 import fr.regemrp.mod.common.handler.RegisterHandler;
 import fr.regemrp.mod.common.init.AllRegister;
@@ -12,10 +11,6 @@ import fr.regemrp.mod.common.utils.References;
 import fr.regemrp.mod.common.utils.commands.CommandWarp;
 import fr.regemrp.mod.common.utils.discord.RPCInit;
 import fr.regemrp.mod.common.utils.tabs.MainTab;
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.util.ResourceLocation;
-import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -26,8 +21,6 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.server.permission.DefaultPermissionLevel;
 import net.minecraftforge.server.permission.PermissionAPI;
 import org.apache.logging.log4j.Logger;
-
-import java.util.Objects;
 
 @Mod(modid = References.MODID, name = References.NAME, version = References.VERSION)
 public class Main
@@ -69,6 +62,7 @@ public class Main
 
         if(event.getSide() == Side.CLIENT)
         rpcInit();
+
     }
 
     @SideOnly(Side.CLIENT)

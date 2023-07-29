@@ -1,12 +1,13 @@
 package fr.regemrp.mod.client;
 
 import fr.regemrp.mod.common.CommonProxy;
-import fr.regemrp.mod.common.init.BlocksRegister;
-import fr.regemrp.mod.common.init.ItemsRegister;
 import fr.regemrp.mod.common.utils.References;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.Util;
+import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.common.MinecraftForge;
 import org.apache.commons.compress.utils.IOUtils;
 import org.lwjgl.opengl.Display;
@@ -20,11 +21,27 @@ import java.nio.ByteBuffer;
 public class ClientProxy extends CommonProxy {
 
     @Override
+    public void registerItemRenderer(Item item, int meta)
+    {
+        super.registerItemRenderer(item, meta);
+        ModelLoader.setCustomModelResourceLocation(item, meta, new ModelResourceLocation(item.getRegistryName(), "inventory"));
+    }
+
+    @Override
+    public void registerVariantRenderer(Item item, int meta, String filename, String id) {
+        super.registerVariantRenderer(item, meta, filename, id);
+    }
+
+    @Override
+    public void registerEntityRenderers()
+    {
+        super.registerEntityRenderers();
+    }
+
+    @Override
     public void preInit()
     {
         super.preInit();
-        MinecraftForge.EVENT_BUS.register(BlocksRegister.INSTANCE);
-        MinecraftForge.EVENT_BUS.register(ItemsRegister.INSTANCE);
 
         /* Personnalisation du jeu */
 
