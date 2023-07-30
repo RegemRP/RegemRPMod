@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "regemrp:blocks/asphalt_side_transform_line"
+  }
+}

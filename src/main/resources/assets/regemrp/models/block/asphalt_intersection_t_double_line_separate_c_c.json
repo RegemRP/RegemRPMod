@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "regemrp:blocks/asphalt_intersection_t_double_line_separate_c_c"
+  }
+}

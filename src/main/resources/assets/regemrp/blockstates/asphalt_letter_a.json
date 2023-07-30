@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "regemrp:asphalt_letter_a"
+    },
+    "facing=east": {
+      "model": "regemrp:asphalt_letter_a",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "regemrp:asphalt_letter_a",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "regemrp:asphalt_letter_a",
+      "y": 270
+    },
+    "normal": {
+      "model": "regemrp:asphalt_letter_a"
+    },
+    "inventory": {
+      "model": "regemrp:asphalt_letter_a"
+    }
+  }
+}

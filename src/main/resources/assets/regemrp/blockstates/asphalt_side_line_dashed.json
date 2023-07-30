@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "regemrp:asphalt_side_line_dashed"
+    },
+    "facing=east": {
+      "model": "regemrp:asphalt_side_line_dashed",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "regemrp:asphalt_side_line_dashed",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "regemrp:asphalt_side_line_dashed",
+      "y": 270
+    },
+    "normal": {
+      "model": "regemrp:asphalt_side_line_dashed"
+    },
+    "inventory": {
+      "model": "regemrp:asphalt_side_line_dashed"
+    }
+  }
+}

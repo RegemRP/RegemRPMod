@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "regemrp:asphalt_intersection_t_doubled_line"
+    },
+    "facing=east": {
+      "model": "regemrp:asphalt_intersection_t_doubled_line",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "regemrp:asphalt_intersection_t_doubled_line",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "regemrp:asphalt_intersection_t_doubled_line",
+      "y": 270
+    },
+    "normal": {
+      "model": "regemrp:asphalt_intersection_t_doubled_line"
+    },
+    "inventory": {
+      "model": "regemrp:asphalt_intersection_t_doubled_line"
+    }
+  }
+}

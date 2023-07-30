@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "regemrp:asphalt_line_separe_zt"
+    },
+    "facing=east": {
+      "model": "regemrp:asphalt_line_separe_zt",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "regemrp:asphalt_line_separe_zt",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "regemrp:asphalt_line_separe_zt",
+      "y": 270
+    },
+    "normal": {
+      "model": "regemrp:asphalt_line_separe_zt"
+    },
+    "inventory": {
+      "model": "regemrp:asphalt_line_separe_zt"
+    }
+  }
+}

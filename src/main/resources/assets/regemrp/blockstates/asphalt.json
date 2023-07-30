@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "regemrp:asphalt"
+    },
+    "facing=east": {
+      "model": "regemrp:asphalt",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "regemrp:asphalt",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "regemrp:asphalt",
+      "y": 270
+    },
+    "normal": {
+      "model": "regemrp:asphalt"
+    },
+    "inventory": {
+      "model": "regemrp:asphalt"
+    }
+  }
+}

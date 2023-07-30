@@ -11,6 +11,7 @@ import fr.regemrp.mod.common.utils.References;
 import fr.regemrp.mod.common.utils.commands.CommandWarp;
 import fr.regemrp.mod.common.utils.discord.RPCInit;
 import fr.regemrp.mod.common.utils.tabs.MainTab;
+import fr.regemrp.mod.common.utils.tabs.RoadTab;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -69,6 +70,7 @@ Ce MOD est distribu√© gratuitement pour les utilisateurs de RegemRP, et toute d√
     /* Creative Tabs */
 
     public static MainTab mainTab = new MainTab("regemrp");
+    public static RoadTab roadTab = new RoadTab("regemrp_road");
 
     /* FML InitializationEvent */
 

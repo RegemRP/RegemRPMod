@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "regemrp:blocks/asphalt_double_line_dashed"
+  }
+}

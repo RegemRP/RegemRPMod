@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "regemrp:blocks/asphalt_angle_line_right"
+  }
+}
