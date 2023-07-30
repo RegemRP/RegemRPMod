@@ -20,7 +20,8 @@ public class AllRegister {
 
     /* Item & Block Register */
 
-    public static BlockBase TEST = new BlockBase("test", Material.ROCK, Main.mainTab, 1f, 1f);
+    public static BlockBase ASPHALT = new BlockBase("asphalt", Material.ROCK, Main.mainTab, 1f, 1f);
+    public static BlockBase ASPHALT_GRAY = new BlockBase("asphalt_gray", Material.ROCK, Main.mainTab, 1f, 1f);
 
 
     /* Dyanmx Register */

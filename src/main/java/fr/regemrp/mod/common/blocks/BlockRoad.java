@@ -23,11 +23,11 @@ import net.minecraft.world.World;
 
 import java.util.Objects;
 
-public class BlockBase extends Block implements IHasModel {
+public class BlockRoad extends Block implements IHasModel {
 
         public static final PropertyDirection FACING = BlockHorizontal.FACING;
 
-        public BlockBase(String name, Material material, CreativeTabs creativeTabs, float hardness, float resistance) {
+        public BlockRoad(String name, Material material, CreativeTabs creativeTabs, float hardness, float resistance) {
             super(material);
             setUnlocalizedName(name);
             setRegistryName(name);

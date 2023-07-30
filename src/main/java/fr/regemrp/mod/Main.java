@@ -26,6 +26,27 @@ import org.apache.logging.log4j.Logger;
 public class Main
 {
 
+    /*
+    * TERMES ET CONDITIONS
+0. TERMES UTILISÉS
+MOD - Modification, plugin, un morceau de code qui modifie Minecraft, qui ajoute, change ou supprime des fonctions du jeu.
+MOJANG - Mojang AB
+AUTEUR - , Auteur(s) original(aux) du MOD. Sous les droits de copie accepté en achetant Minecraft ( https://www.minecraft.net/fr-fr/eula ) l’AUTEUR (Yan36s) a tout les droits sur son MOD, malgré qu’il utilise le code de MOJANG.
+UTILISATEUR - Utilisateur du mod, qui accepte les conditions évoquées ci-dessous.
+
+1. RISQUES
+CE MOD EST LIVRÉ “COMME IL EST”, SANS GARANTIES. L’AUTEUR NE PREND AUCUNE RESPONSABILITÉ PAR RAPPORT AU DÉGÂTS CAUSÉS PAR CE MOD. CE MOD MODIFIE DES PARTIES DU JEU MINECRAFT, CERTAINES PARTIES POURRAIENT NE PLUS FONCTIONNER. TOUT DÉGÂTS CAUSÉS PAR CE MOD SONT SOUS LA RESPONSABILITÉ DE L’UTILISATEUR.
+
+2. UTILISATION
+L’utilisation de ce MOD, pour être installé, automatiquement ou manuellement est réservé au serveur REGEMPR.
+
+3. REDISTRIBUTION
+Ce mod ne doit être redistribué que par l’AUTEUR, et ne doit pas être redistribué par un tiers sans l’accord de l’AUTEUR. Ce MOD ne doit pas être redistribué sur un site autre que REGEMRP.
+
+4. DERIVATIONS / MODIFICATIONS
+Ce MOD est distribué gratuitement pour les utilisateurs de RegemRP, et toute décompilation a des fins quelconques ne sont pas autorisées sauf accord de l'auteur. Toutes versions modifiées de ce MOD demandent des permissions écrites de l’AUTEUR et peuvent êtres sujettes a certaines conditions.
+    * */
+
     public static Logger logger;
 
     @Mod.Instance(References.MODID)
