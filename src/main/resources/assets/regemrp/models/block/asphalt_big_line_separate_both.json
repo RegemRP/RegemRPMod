@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "regemrp:blocks/asphalt_big_line_separate_both"
-  }
-}

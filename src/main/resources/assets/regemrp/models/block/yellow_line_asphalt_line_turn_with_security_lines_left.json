@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "regemrp:blocks/yellow_line_asphalt_line_turn_with_security_lines_left",
+    "side": "regemrp:blocks/asphalt"
+  }
+}

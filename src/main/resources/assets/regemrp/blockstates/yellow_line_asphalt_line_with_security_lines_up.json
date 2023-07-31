@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "regemrp:yellow_line_asphalt_line_with_security_lines_up"
+    },
+    "facing=east": {
+      "model": "regemrp:yellow_line_asphalt_line_with_security_lines_up",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "regemrp:yellow_line_asphalt_line_with_security_lines_up",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "regemrp:yellow_line_asphalt_line_with_security_lines_up",
+      "y": 270
+    },
+    "normal": {
+      "model": "regemrp:yellow_line_asphalt_line_with_security_lines_up"
+    },
+    "inventory": {
+      "model": "regemrp:yellow_line_asphalt_line_with_security_lines_up"
+    }
+  }
+}

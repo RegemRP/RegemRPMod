@@ -24,6 +24,7 @@ import net.minecraftforge.server.permission.PermissionAPI;
 import org.apache.logging.log4j.Logger;
 
 @Mod(modid = References.MODID, name = References.NAME, version = References.VERSION)
+@DynamXAddon(modid = References.MODID, name = References.NAME, version = References.VERSION)
 public class Main
 {
 
@@ -96,7 +97,6 @@ Ce MOD est distribu√© gratuitement pour les utilisateurs de RegemRP, et toute d√
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
         proxy.init();
-        PermissionAPI.registerNode("regemrp.command.gamemode", DefaultPermissionLevel.OP, "Allows players to use the gamemode command");
 
 //        SyncedDatabases.add("regemrp_warps");
 //        dbWarps = Databases.getDatabase("regemrp_warps");

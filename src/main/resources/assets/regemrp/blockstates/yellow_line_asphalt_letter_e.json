@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "regemrp:yellow_line_asphalt_letter_e"
+    },
+    "facing=east": {
+      "model": "regemrp:yellow_line_asphalt_letter_e",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "regemrp:yellow_line_asphalt_letter_e",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "regemrp:yellow_line_asphalt_letter_e",
+      "y": 270
+    },
+    "normal": {
+      "model": "regemrp:yellow_line_asphalt_letter_e"
+    },
+    "inventory": {
+      "model": "regemrp:yellow_line_asphalt_letter_e"
+    }
+  }
+}

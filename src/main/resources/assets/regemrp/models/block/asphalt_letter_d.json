@@ -1,6 +1,7 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube_column",
   "textures": {
-    "all": "regemrp:blocks/asphalt_letter_d"
+    "end": "regemrp:blocks/asphalt_letter_d",
+    "side": "regemrp:blocks/asphalt"
   }
 }

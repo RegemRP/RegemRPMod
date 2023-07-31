@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "regemrp:blocks/yellow_line_asphalt_turn_double_line_merging",
+    "side": "regemrp:blocks/asphalt"
+  }
+}

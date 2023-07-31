@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "regemrp:blocks/yellow_line_asphalt_side_line_dashed_cut_both",
+    "side": "regemrp:blocks/asphalt"
+  }
+}

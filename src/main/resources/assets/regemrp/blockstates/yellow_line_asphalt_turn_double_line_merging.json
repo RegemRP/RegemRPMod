@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "regemrp:yellow_line_asphalt_turn_double_line_merging"
+    },
+    "facing=east": {
+      "model": "regemrp:yellow_line_asphalt_turn_double_line_merging",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "regemrp:yellow_line_asphalt_turn_double_line_merging",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "regemrp:yellow_line_asphalt_turn_double_line_merging",
+      "y": 270
+    },
+    "normal": {
+      "model": "regemrp:yellow_line_asphalt_turn_double_line_merging"
+    },
+    "inventory": {
+      "model": "regemrp:yellow_line_asphalt_turn_double_line_merging"
+    }
+  }
+}
