@@ -65,7 +65,7 @@ Ce MOD est distribu√© gratuitement pour les utilisateurs de RegemRP, et toute d√
     @DynamXAddon.AddonEventSubscriber
     public static void init()
     {
-        AllRegister.dynamxInit();
+        AllRegister.dynamXInit();
     }
 
     /* Creative Tabs */

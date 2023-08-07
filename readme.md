@@ -1,0 +1,5 @@
+# Mod officiel de RegemRP
+
+> Attention, l'ensemble du développement, des modèles, des textures, des sons, des musiques et des plugins sont la propriété de RegemRP et par extension de ses propriétaires lorsqu'ils sont réalisés par l'équipe de RegemRP, le cas échéant de leurs auteurs respectifs. Toutes réutilisations non autorisées sont formellement interdites et représentent un délit pénal qualifible de contrefaçon ou de vol là où vous ne respectez la propriété intelectuelle des auteurs. Toutes réutilisations doit le cas échéant faire l'objet d'une demande d'autorisation écrite auprès de l'équipe de RegemRP agréée et autorisée par un acte écrit signé de l'administration de RegemRP. Le non respect de ces indications représentent un délit pénal condamnable et poursuivable par les tribunaux français que vous soyez de nationalité française ou non de 300.000€d'amende et trois ans prison (Article L335 à L335-9 du Code la propriété intelectuelle).
+>
+> ® RegemRP 2023 - Tous droits réservés.

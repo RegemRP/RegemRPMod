@@ -20,8 +20,7 @@ public class AllRegister {
 
     /* Item & Block Register */
 
-    /* Road Block
-     *  Block */
+    /* Road Block */
 
     public static BlockBase ASPHALT = new BlockBase("asphalt", Material.ROCK, Main.roadTab, 1f, 1f);
     public static BlockBase ASPHALT_ANGLE_LINE_LEFT = new BlockBase("asphalt_angle_line_left", Material.ROCK, Main.roadTab, 1f, 1f);
@@ -222,11 +221,11 @@ public class AllRegister {
     public static BlockBase YELLOW_LINE_ASPHALT_TURN_DOUBLE_LINE_MERGING = new BlockBase("yellow_line_asphalt_turn_double_line_merging", Material.ROCK, Main.roadTab, 1f, 1f);
     public static BlockBase YELLOW_LINE_ASPHALT_T_LINE = new BlockBase("yellow_line_asphalt_t_line", Material.ROCK, Main.roadTab, 1f, 1f);
 
-    /* Dyanmx Register */
+    /* DynamX Register */
 
     public static BaseDynamxBlock test;
 
-    public static void dynamxInit(){
+    public static void dynamXInit(){
         //test = new BaseDynamxBlock(Material.ROCK, References.MODID, "test", new ResourceLocation("regemrp","models/test/photocopieuse.obj"), Main.roadTab);
     }
 
